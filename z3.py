@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot('AAES-Q82uIqGgSxK5ekglgI-iDnZAi53eK0')  # здесь ваш токен
+bot = telebot.TeleBot('7239840132:AAES-Q82uIqGgSxK5ekglgI-iDnZAi53eK0')  # здесь ваш токен
 @bot.message_handler(content_types=['text'])  # слушаем текстовые сообщения
 def get_text(message):
     if message.text == "Привет":  # проверяем сообщение от пользователя
