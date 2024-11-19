@@ -4,7 +4,7 @@ import webbrowser
 bot = telebot.TeleBot('7935685520:AAGE8Ov2jk4vakLFHGE20YL3W-uAZ2xrn88')
 
 y_data = 0
-otvet = 0
+
 
 
 """@bot.message_handler(commands=['site', 'website'])
